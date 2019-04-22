@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "google-maps": [
+        "dist/google-maps"
+      ],
+      "google-maps/*": [
+        "dist/google-maps/*"
+      ]
+    }
   }
 }
