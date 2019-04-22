@@ -7,7 +7,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build google-maps",
+    "build:prod": "ng build google-maps --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

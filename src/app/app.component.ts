@@ -11,14 +11,14 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 export class AppComponent {
   public appPages = [
     {
-      title: 'Home',
-      url: '/home',
-      icon: 'home'
+      title: 'Native Map',
+      url: '/native-map',
+      icon: 'map'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Native Map with Bottom Sheet',
+      url: '/native-map-bottom-sheet',
+      icon: 'map'
     }
   ];
 
