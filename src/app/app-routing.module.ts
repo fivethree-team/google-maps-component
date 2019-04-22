@@ -4,17 +4,14 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'native-map',
     pathMatch: 'full'
   },
+  { path: 'native-map', loadChildren: './pages/native-map/native-map.module#NativeMapPageModule' },
   {
-    path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
+    path: 'native-map-bottom-sheet',
+    loadChildren: './pages/native-map-bottom-sheet/native-map-bottom-sheet.module#NativeMapBottomSheetPageModule'
   },
-  {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
-  }
 ];
 
 @NgModule({
