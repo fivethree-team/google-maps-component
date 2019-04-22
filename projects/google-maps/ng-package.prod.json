@@ -1,7 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/@fivethree/google-maps",
-  "deleteDestPath": false,
   "lib": {
     "flatModuleFile": "fivethree-google-maps",
     "entryFile": "src/public_api.ts",

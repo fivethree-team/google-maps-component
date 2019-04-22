@@ -19,11 +19,8 @@
       "dom"
     ],
     "paths": {
-      "google-maps": [
-        "dist/google-maps"
-      ],
-      "google-maps/*": [
-        "dist/google-maps/*"
+      "@fivethree/google-maps": [
+        "dist/@fivethree/google-maps"
       ]
     }
   }

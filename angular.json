@@ -190,7 +190,7 @@
       "root": "projects/google-maps",
       "sourceRoot": "projects/google-maps/src",
       "projectType": "library",
-      "prefix": "lib",
+      "prefix": "fiv",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",

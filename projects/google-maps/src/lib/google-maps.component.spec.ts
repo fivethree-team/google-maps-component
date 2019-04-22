@@ -1,22 +1,20 @@
-import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GoogleMapsComponent } from './google-maps.component';
+import { FivGoogleMaps } from './google-maps.component';
 
 describe('GoogleMapsComponent', () => {
-  let component: GoogleMapsComponent;
-  let fixture: ComponentFixture<GoogleMapsComponent>;
+  let component: FivGoogleMaps;
+  let fixture: ComponentFixture<FivGoogleMaps>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GoogleMapsComponent ],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
+      declarations: [ FivGoogleMaps ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GoogleMapsComponent);
+    fixture = TestBed.createComponent(FivGoogleMaps);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
